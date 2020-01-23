@@ -38130,13 +38130,15 @@
 /turf/simulated/floor/carpet,
 /area/station/bridge/hop_office)
 "lzf" = (
-/obj/structure/closet/walllocker/emerglocker/north,
 /obj/structure/sign/warning/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	layer = 4;
 	name = "EXTERNAL AIRLOCK";
 	pixel_x = 32
+	},
+/obj/structure/closet/emergency_wall{
+	pixel_y = 32
 	},
 /turf/simulated/floor/plating,
 /area/station/engineering/engine)
@@ -45076,10 +45078,6 @@
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/simulated/floor/plating,
 /area/station/maintenance/eva)
-"nIb" = (
-/obj/structure/closet/walllocker/emerglocker/north,
-/turf/simulated/floor/plating,
-/area/station/maintenance/bridge)
 "nIc" = (
 /obj/structure/rack,
 /obj/item/seeds/cabbageseed,
@@ -45891,7 +45889,9 @@
 	name = "EXTERNAL AIRLOCK";
 	pixel_x = -32
 	},
-/obj/structure/closet/walllocker/emerglocker/north,
+/obj/structure/closet/emergency_wall{
+	pixel_y = 32
+	},
 /turf/simulated/floor/plating,
 /area/station/hallway/primary/bridgehall)
 "nWf" = (
@@ -46359,13 +46359,15 @@
 /turf/simulated/floor/wood,
 /area/station/medical/psych)
 "odG" = (
-/obj/structure/closet/walllocker/emerglocker/north,
 /obj/structure/sign/warning/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	layer = 4;
 	name = "EXTERNAL AIRLOCK";
 	pixel_x = -32
+	},
+/obj/structure/closet/emergency_wall{
+	pixel_y = 32
 	},
 /turf/simulated/floor/plating,
 /area/station/engineering/engine)
@@ -120291,7 +120293,7 @@ iir
 iir
 iir
 jIl
-nIb
+vOc
 jkw
 jIl
 kHU
